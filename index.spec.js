@@ -1,3 +1,11 @@
+const user = require ("./user") //importando
+
+describe("user", () => {
+    it("should be greather than or equal to 18", () =>{
+        expect(user.idade).toBeGreaterThanOrEqual(18);
+    })
+})
+
 function soma(a, b) {
     return a + b;
 }
