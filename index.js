@@ -4,4 +4,4 @@ soma(8, 9)
 function soma(a, b){
  resultado = a + b;
 }
-console.log(resultado);
+console.log(resultado+"\nnyc");
